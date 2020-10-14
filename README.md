@@ -9,8 +9,9 @@ Samples of using [Connect Open API](https://connect.spotware.com/documentation/s
 * In the application folder run the commands:
 ```shell
     npm install
-    npm start
+    CLIENT_ID=your_client_id CLIENT_SECRET=your_client_secret CTID_TRADER_ACCOUNT_ID=your_account_id ACCESS_TOKEN=your_access_token npm run start
 ```
+* To learn how to get the values for the above env variables, see comments in index.js
 * The application will connect to sandbox Open API server, authenticate and subscribe for EURUSD spot prices
 
 ![Alt text](http://g.gravizo.com/g?
